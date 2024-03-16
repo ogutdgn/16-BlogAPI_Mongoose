@@ -29,5 +29,6 @@ app.use(require("./src/middlewares/errorHandler")); //! Aşağıda kalmasında f
 
 app.listen(PORT, () => console.log(`Running server on http://${HOST}:${PORT}`));
 
-// ! require("./src/sync") kodu bir fonkisyon çağırır. bu yüzden sonuna "()" koyarak çağırdığımız fonkisyonu çalıştırırız
+
+
 require("./src/sync")()
